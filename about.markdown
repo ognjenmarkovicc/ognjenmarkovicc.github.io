@@ -4,4 +4,9 @@ title: About
 permalink: /about/
 ---
 
- I made this blog in the wake of COVID-19 to track Serbia COVID-19 cases, but in the future it will hopefully have fun stuff like physics or music.
+
+<img src="/assets/ProfilePicOM.jpg" width="40%" style="float: left; margin-right:1em;">
+
+Hi everyone,
+
+Welcome to my blog! I am a quantum physicist working on harnessing large quantum systems of very cold atoms. I am currently finishing my PhD at Stanford University.
