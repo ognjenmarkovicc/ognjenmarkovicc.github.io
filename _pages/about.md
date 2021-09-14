@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 
-<img src="/assets/ProfilePicOM.jpg" width="40%" style="float: left; margin-right:1em;">
+<img src="/assets/img/prof_pic.jpg" width="40%" style="float: left; margin-right:1em;">
 
 Hi everyone,
 
