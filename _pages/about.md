@@ -21,4 +21,4 @@ Rydberg-dressed cesium atoms. Currently, I am working as a postdoc in the group
 of  [Markus Greiner](https://greiner.physics.harvard.edu/) on quantum simulation
 with magnetic atoms in an optical lattice. I have done my undergraduate studies
 at Trinity College at the University of Cambridge where I have obtained my
-B.S. and M.Sci. ([Part III](https://www.phy.cam.ac.uk/students/teaching/current-courses/III_overview)) degrees in physics.
+BA and MSci ([Part III](https://www.phy.cam.ac.uk/students/teaching/current-courses/III_overview)) degrees in physics.
