@@ -11,7 +11,7 @@
   Ognjen  Marković
 
 
-  | blog
+  | Experiment automation and control
 
 </title>
 <meta name="description" content="Personal webpage for Ognjen Marković.
@@ -37,7 +37,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚛️</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/experimental_control/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -119,8 +119,6 @@
           
           
           
-          
-          
           <li class="nav-item ">
               <a class="nav-link" href="/projects/">
                 projects
@@ -162,18 +160,27 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2></h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">Experiment automation and control</h1>
+    <p class="post-description">Greiner lab, Harvard University</p>
+  </header>
 
-
-  <ul class="post-list">
+  <article>
+    <!-- Add ml and mr add left and right margins -->
+<div class="row">
+    <div class="col-sm mt-3 ml-5 mr-5 mt-md-0">
+        <img class="img-fluid z-depth-1 rounded" src="/assets/img/experiment_control.png" title="Experiment control diagram" />
+    </div>
+</div>
+<div class="caption">
     
-  </ul>
+</div>
 
-  
+<p>One of my goals while working on the experimental system at Harvard University was to make sure the experiment was running smoothly and to automate common tasks that were needed to calibrate the experiment. To that end, I have led integration between different existing experimental systems, such as the custom experiment control system written in C# and the Python data analysis suite.</p>
 
+<p>I built a python package which allows for easy scheduling of experimental sequences, automated data analysis and feedback on experimental parameters. By using an external experiment optimization package (M-LOOP), now it is possible to automatically optimize several experimental parameters at once. These upgrades have reduced the need for manual optimization of the experiment, enabling the experimenter to focus on other tasks. The uptime of the experiment has been increased, enabling automatic running of the experiment over nights or the weekends, with automatic recalibration of experimental parameters. To track the lab parameters while the experiment is running, I improved the lab’s data logging system by collecting all the relevant data (like lab temperatures) into a single, easy-to-use Grafana dashboard.</p>
+
+  </article>
 
 </div>
 
