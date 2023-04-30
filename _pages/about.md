@@ -22,7 +22,14 @@ BA and MSci ([Part III](https://www.phy.cam.ac.uk/students/teaching/current-cour
 
 <br>
 <br>
+## skills
+
+{% include skills.html %}
+
+<br>
 
 ## honors and awards
 
 {% include awards.html %}
+
+<br>
